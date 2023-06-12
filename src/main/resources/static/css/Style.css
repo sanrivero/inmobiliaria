@@ -1,0 +1,158 @@
+@media (min-width: 768px){
+.col-md-3 {
+    flex: 0 0 auto;
+}
+}
+
+
+header{
+    padding: 5%;
+  background-color: #1E385B;  
+  color: #FFFFFF;
+ 
+}
+
+a{
+text-decoration: none;
+color:#FFFFFF;
+}
+
+.iconos-caracts{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    max-width: 500px;
+}
+
+.iconos-caracts li{
+    display: flex;
+}
+.iconos-caracts li img{
+    margin-right: 2rem;
+}
+
+
+ 
+.material-symbols-outlined {
+ font-size: 2.5em;
+}
+
+.iconos-caracts p{
+    font-size: 1.5em;
+}
+
+
+.btn{
+   background-color: #1E385B;
+   color: #FFFFFF;
+   border: 2px solid  #1E385B;
+}
+
+.btn:hover{
+    background-color: #2C517F;
+    border: 2px solid  #2C517F;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color:#85202A ;
+    border-color:#85202A ;
+}
+
+.btn-danger:hover {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.divLogo p{
+    color: rgb(253, 253, 253);
+    text-decoration: dashed;
+    text-decoration: underline;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    margin-top: 0.3em;
+}
+
+.text-body-secondary {
+    --bs-text-opacity: 0;
+    color: #FFFFFF var(--bs-secondary-color)!important;
+}
+
+
+
+.link-secondary{
+    color: #FFFFFF; 
+}
+
+.nav-link{
+    color: #FFFFFF; 
+}
+
+footer{
+
+    background-color: #333333;
+    color: #FFFFFF;
+    text-decoration: none;
+
+padding: 1%;
+}
+
+.logo{
+color: #FFFFFF;
+}
+
+.my-4 {
+    margin-top: 1.5rem!important;
+    margin-bottom: 0rem!important; 
+}
+
+
+#ulMenu{
+display:none;
+opacity:0;
+  transition: opacity 1s;
+  position:absolute;
+      right: 5.1%;
+}
+
+#ulMenu li{
+text-decoration:none;
+list-style:none;
+}
+
+#ulMenu button{
+min-width:132px;
+}
+
+#botonMenu:hover + #ulMenu, #ulMenu:hover {
+display:block;
+opacity:1;
+}
+
+#ulMenu:hover {
+pointer-events:auto;
+}
+
+@media (max-width:767px) {
+
+
+#ulMenu{
+display:none;
+opacity:0;
+  transition: opacity 1s;
+  position:absolute;
+      right: 41.3%;
+}
+
+#ulMenu button {
+    min-width: 132px;
+}
+}

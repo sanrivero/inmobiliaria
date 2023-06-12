@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background:#f3ede7; 
+    
+}
+
+.wrapper{ /*hace referencia al cont del menu izq y der*/
+    min-height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns:20% 80%;
+}
+aside{
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #1e385b;
+    padding: 6px 14px;
+    align-items: center;
+    /*overflow: hidden;*/
+}
+aside .contenedor__logo .logo{
+    color: #fff;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+
+}
+.contenedor__logo .logo i {
+    font-size:28px;
+    margin-right: 5px;
+    width:3rem;
+
+}
+.contenedor__logo .logo .logo__name{
+    font-size:  20px;
+    font-weight: 400;
+}
+
+ aside .lista__navegacion{
+    font-size:  20px;
+    font-weight: 400;
+}
+aside .lista__navegacion li{
+    position:relative;
+    /*
+    height: 50px;
+    width: 100%;
+    */
+    margin: 0 5px;
+    list-style: none;
+    border-radius: 12px;
+    margin-top: 40px;
+}
+aside .lista__navegacion li input{
+    
+    height: 3rem;
+    width: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    background: #162943;
+    padding-left: 40px;
+    font-size: 18px;
+    color: #fff;
+    
+}
+
+aside .lista__navegacion li a{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+aside .lista__navegacion li i{
+    /*height: 500px;*/
+    min-width: 50px;
+    border-radius:12px;
+    line-height: 50px;
+    text-align:center;
+    font-size: 2rem;
+    width:5rem;
+}
+aside .contenido__sesion{
+    position: absolute;
+    font-size: 22px;
+    margin-right: 5px;
+    color: #fff;
+    bottom: 0;
+    left: 0;
+    align-items: center;
+}
+aside .contenido__sesion a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+.contenido__sesion i {
+    font-size: 24px;
+    padding: 6px 14px;
+}
+
+.element{
+    display: none;
+}
+main{
+    padding: 22px;    
+}
+ol, ul {
+    padding-left: 0rem;
+}

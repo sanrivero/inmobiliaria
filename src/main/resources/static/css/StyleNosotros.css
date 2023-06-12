@@ -1,0 +1,62 @@
+
+main {
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.our-team .team-members {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-member {
+  flex-basis: calc(50% - 20px);
+  text-align: center;
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+
+
+
+
+
+  main {
+    padding: 10px;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+
+  .our-team .team-members {
+    flex-wrap: wrap;
+  }
+
+  .team-member {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+
+  .team-member img {
+    width: 100px;
+    height: 100px;
+  }
+}
